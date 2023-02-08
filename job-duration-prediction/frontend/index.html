@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Job Duration Prediction</title>
+  <link href="https://unpkg.com/fundamental-styles@0.22.0/dist/fundamental-styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/fundamental-styles@0.22.0/dist/form-header.css" rel="stylesheet">
+  <link href="https://unpkg.com/fundamental-styles@0.22.0/dist/helpers.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="fd-form-group fd-has-padding-s">
+    <div class="fd-form-item">
+      <label class="fd-form-label">
+        Predicted Duration:
+        <a href="https://confluence.coresystems.net/display/development/Data+Pipeline+for+job+Duration+Prediction" target="_blank" rel="noopener noreferrer" class="show-more">
+          <i class="sap-icon--message-information"></i>
+        </a>
+      </label>
+      <div id="predicted-duration">Select Activity</div>
+    </div>
+    <div class="fd-form-item">
+      <label class="fd-form-label">Actual Duration:</label>
+      <div id="actual-duration">Select Activity</div>
+    </div>
+    <div class="fd-form-item autocomplete">
+      <label class="fd-form-label" for="technician">
+        Technician:
+      </label>
+      <br>
+      <input id="technician"
+             type="text"
+             name="technician"
+             autocomplete="off"
+             placeholder="Enter technician name"
+      >
+    </div>
+    <div class="fd-form-item">
+      <label class="fd-form-label">Technician Duration:</label>
+      <div id="technician-duration"></div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/fsm-shell"></script>
+<script src="script.js"></script>
+</body>
+</html>

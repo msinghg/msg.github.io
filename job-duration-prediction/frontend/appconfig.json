@@ -1,0 +1,7 @@
+{
+  "name": "Job Duration Prediction local",
+  "provider": "SAP FSM",
+  "description": "Sample extension to predict job duration prediction using backend prediction Service",   
+  "version": "1.2.0", 
+  "icon": "https://raw.githubusercontent.com/SAP-samples/fsm-extension-sample/refactor/samples/service-contract/icon.png"
+}
